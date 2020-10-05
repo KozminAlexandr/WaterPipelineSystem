@@ -1,8 +1,7 @@
 This application calculates minimum route length between two points
 
 The libraries used:
-  1. Lombok 1.18.12
-  2. h2-1.4.200
+  1. h2-1.4.200
 
 Requirements:
   JDK version 11+
