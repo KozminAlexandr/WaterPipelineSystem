@@ -1,13 +1,21 @@
 package kom.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
 import java.util.List;
 
-@AllArgsConstructor
-@Getter
 public class WaterPipelineSystem {
     private List<Point> points;
     private List<PipeLine> pipeLines;
+
+    public WaterPipelineSystem(List<Point> points, List<PipeLine> pipeLines) {
+        this.points = points;
+        this.pipeLines = pipeLines;
+    }
+
+    public List<Point> getPoints() {
+        return points;
+    }
+
+    public List<PipeLine> getPipeLines() {
+        return pipeLines;
+    }
 }
